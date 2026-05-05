@@ -1,0 +1,34 @@
+cou="INDIA"
+class ace:
+    col="ACE ENGINEERING COLLEGE"
+    def give_dim(self,a,b,c,d):
+        self.t=a+b+c
+        self.name=d
+    def dis(self):
+        print("1 NAME:",self.name)
+        print("2 MARKS:",self.t)
+        print("3 COLLEGE:",ace.col)
+        print("4 COUNTRY:",cou)
+
+class bvrit:
+    col="BVRIT COLLEGE"
+    def give_dim(self,a,b,c,d):
+        self.t=a+b+c
+        self.name=d
+    def dis(self):
+        print("1 NAME:",self.name)
+        print("2 MARKS:",self.t)
+        print("3 COLLEGE:",bvrit.col)
+        print("4 COUNTRY:",cou)
+a=ace()
+a2=ace()
+b=bvrit()
+b2=bvrit()
+a.give_dim(80,90,70,"sumanth")
+a2.give_dim(68,76,84,"fayaz")
+b.give_dim(58,37,67,"pranay")
+b2.give_dim(67,97,37,"chapri")
+a.dis()
+a2.dis()
+b.dis()
+b2.dis()
